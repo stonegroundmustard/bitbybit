@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 14px;
+  background: #bebcbe;
+}
+
+/* Header/Blog Title */
+header {
+  padding: 5px;
+  text-align: center;
+  background: #bebcbe;
+  font-size: 25px;
+}
+
+/* Style the top navigation bar */
+nav {
+  overflow:hidden
+  background-color: #bebcbe;
+}
+
+/* Style the topnav links */
+nav a {
+  float: right;
+  display: block;
+  color: #b66e9a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:double;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #bebcbe;
+  color: rgb(212, 206, 117);
+}
+
+form{
+}
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  float:right;
+  width: 100%;
+  background-color: #bebcbe;
+  padding-left: 20px;
+}
+
+.sidebar {
+  flex-direction: column;
+}
+
+.p1{
+    text-align: left;
+    width: 50%;
+}
+
+
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    background: #bebcbe;
+  }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
