@@ -8,6 +8,11 @@ I learned much more about flex box and display styles while working through this
 
 ## Screenshots
 
+
+![IMG_7251](https://user-images.githubusercontent.com/114121861/199862813-1e6b8ed8-6e1d-4c77-8c98-7bacd532c313.jpg)
+
+![IMG_7250](https://user-images.githubusercontent.com/114121861/199862835-79a70803-05dc-41de-9851-91453bb54da7.jpg)
+
 ## Credits
 Juan Delgado, Tutor
 Eli Montoya, Instructor 
