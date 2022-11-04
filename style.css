@@ -18,7 +18,7 @@ header {
 
 /* Style the top navigation bar */
 nav {
-  overflow:hidden
+  overflow:hidden;
   background-color: #bebcbe;
 }
 
@@ -38,7 +38,12 @@ nav a:hover {
   color: rgb(212, 206, 117);
 }
 
+
+/* contact form */
 form{
+  display: flex;
+  flex-direction: column;
+
 }
 
 h2{
@@ -53,20 +58,30 @@ h3{
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-  float: left;
+  /* float: left;
   position: absolute;
   left: 0px;
-  width: 50%;
+  width: 50%;*/
+  display: flex;
 }
 
 
 
 /* Right column */
 .rightcolumn {
-  float:right;
+  /* float:right;
   width: 100%;
   background-color: #bebcbe;
-  padding-left: 20px;
+  padding-left: 20px; */
+  display: flex;
+}
+
+/* putting space between my container and my images */
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+
 }
 
 .sidebar {
