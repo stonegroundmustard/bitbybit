@@ -16,6 +16,10 @@ header {
   font-size: 25px;
 }
 
+.avatar {
+  float: inline-start
+}
+
 /* Style the top navigation bar */
 nav {
   overflow:hidden;
